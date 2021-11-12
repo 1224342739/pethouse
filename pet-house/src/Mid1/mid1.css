@@ -1,0 +1,79 @@
+.cmenu{
+	text-decoration:none;
+	position: relative;
+	width: 200px;
+	line-height: 50px;
+	float: left;
+	opacity: 0.9;
+	height: 500px;
+	background: #c3cc99;
+	z-index: 2;
+}
+.menu{
+	position: relative;
+	margin: auto;
+	/* height: 7px; */
+	text-align:left;
+	line-height: 50px;
+}
+.menu:hover{
+	background: #4169E1;
+	text-align: center;
+}
+.menu ul{
+	position: absolute;
+	list-style: none;
+	left: 1px;
+	width: 1px;
+	top:0px;
+	display: none;
+}
+.menu:hover ul{
+	margin-top: 0.1px;
+	width: 100%;
+	display: block;
+    transition-duration: 0.5s;
+    left:78%;
+}
+.menu ul li{
+	height: 50px;
+	width: 100%;
+	font-size: x-large;
+	font-family: "楷体";
+	text-align: center;
+	list-style-type: none;
+	float:left ;
+	background: #c7ee2c;
+	opacity: 0.7;
+}
+/* .menu ul li a{
+	color: #FFFFFF;
+	font-family: "楷体";
+	display: block;
+} */
+.div1{
+	position: relative;
+	background-color: rgb(170, 101, 101);
+	width: 80%;
+	height: 500px;
+	margin:13px auto;
+	/*border:  1px solid red;*/
+}
+
+.div2{
+	text-align: center;
+	font-size: 30px;
+	height: 68px;
+	color: rgb(22, 	192, 98);
+	display: block;
+	border-top: 1.5px solid rgb(170, 101, 101);
+	border-bottom: 1.5px solid rgb(170, 101, 101);
+	/* justify-content: center; */
+	/* align-items: center; */
+
+}
+
+.div2 a{
+    text-decoration: none;
+	color: rgb(22, 	192, 98);
+}
